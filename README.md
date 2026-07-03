@@ -12,8 +12,8 @@ A simple Arduino-based reaction time tester with a 20×4 I2C LCD, LEDs, buzzer, 
 
 ## Live Simulation
 
-- **[Current version](https://wokwi.com/projects/468402428102183937)** — LEDs, buzzer tune, false start detection, and a result screen that waits for input.
-- **[Older version](https://wokwi.com/projects/468503582785589249)** — earlier build kept here for reference.
+- **[Current version](https://wokwi.com/projects/468503582785589249)** — LEDs, buzzer tune, false start detection, and a result screen that waits for input.
+- **[Older version](https://wokwi.com/projects/468402428102183937)** — earlier build kept here for reference.
 
 ---
 
