@@ -36,9 +36,9 @@ A simple Arduino-based reaction time tester with a 20×4 I2C LCD, LEDs, buzzer, 
 - 20×4 I2C LCD
 - Pushbutton
 - Buzzer
-- 2× LEDs (Green & Red)
-- 2× Resistors (220Ω for LEDs)
-- Breadboard & jumper wires
+- RGB LED
+- 1× Resistor (220Ω for LED)  {not required in simulation}
+- Breadboard & jumper wires 
 
 ---
 
@@ -58,15 +58,15 @@ A simple Arduino-based reaction time tester with a 20×4 I2C LCD, LEDs, buzzer, 
 | Arduino Pin | Component      | Connection              |
 |-------------|-----------------|--------------------------|
 | 5V          | LCD (I2C)       | VCC                      |
-| GND         | LCD, Buzzer, Button, LEDs | GND            |
+| GND         | LCD, Buzzer, Button, RGB LED | GND            |
 | A4 (SDA)    | LCD             | SDA                      |
 | A5 (SCL)    | LCD             | SCL                      |
-| 8           | Green LED       | + (through 220Ω resistor)|
-| 9           | Red LED         | + (through 220Ω resistor)|
+| 8           |LED GREEN LEG       | + (through 220Ω resistor)|
+| 9           |LED RED LEG         | + (through 220Ω resistor)|
 | 10          | Buzzer          | + (Red)                  |
 | 6           | Button          | One leg (other to GND)   |
 
-Note: both LEDs' cathodes (negative legs) connect to GND, and the button's other leg also connects to GND. The internal pull-up is used, so no external resistor is needed for the button itself.
+Note: rgb led is used in cathode mode which is connected to GND, and the button's other leg also connects to GND. The internal pull-up is used, so no external resistor is needed for the button itself.
 
 ---
 
